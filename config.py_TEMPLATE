@@ -1,0 +1,10 @@
+# Rename this file as config.py and edit the required fields
+
+# This must point to the API interface.
+server = "your_chirpstack_IP_address:8080"
+
+# The DevEUI for which you want to enqueue the downlink.
+dev_eui = "0001020304050607"
+
+# The API token (retrieved using the web-interface -> API keys -> Add API key).
+api_token = "token_shown_just_once_on_creating"

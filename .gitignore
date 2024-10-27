@@ -1,0 +1,6 @@
+__pycache__
+.*.swp
+.gitconfig
+._*
+config.py
+.DS_Store
