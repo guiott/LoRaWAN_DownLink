@@ -49,13 +49,13 @@ def send_data_to_device(dev_eui, payload):
         resp = client.Enqueue(req, metadata=metadata)
         # resp = client.Enqueue(req, metadata=auth_token)
         print("Sent: ", payload,  "ID: ", {resp.id})
-        
+
 def dispHelp():
    print("Usage:\n Relay = R\n  1:2\n LED = L\n  r,g,R,G,B\n DIG = D\n  1,2,P\n All OFF = A")
 
 if __name__ == "__main__":
     # Send payload
-    #a = datetime.datetime.now().strftime("%H:%M:%S")
+    a = datetime.datetime.now().strftime("%H:%M:%S")
     if devType in ['R','L','D','A']:
       a = "{}:{}:{}".format(devType,devNum,devStatus )
       send_data_to_device(dev_eui, a)

@@ -18,5 +18,4 @@ and network server (Device Support Class C)
 
 after node joining it must uplink a message to the gateway before start receiving downlinks continuosly.
 
-
-
+Please look at LoRaWANRemoteCommandSystem.md for a detailed description on using this for a complete system.
