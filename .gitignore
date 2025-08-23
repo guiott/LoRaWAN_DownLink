@@ -2,5 +2,9 @@ __pycache__
 .*.swp
 .gitconfig
 ._*
-config.py
+credentials.py
 .DS_Store
+lorawan_errors.log
+__OLD/LoRaWAN_send.py
+__OLD/LoRaWAN_sendAUTO.py
+__OLD/mqtt_listener.py
