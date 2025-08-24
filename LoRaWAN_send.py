@@ -37,7 +37,7 @@ import config
 server = credentials.server
 dev_eui = credentials.dev_eui
 api_token = credentials.api_token
-BROKER = "192.168.222.5"
+BROKER = credentials.mqtt_broker
 PORT = 1883
 TOPIC = f"application/+/device/{dev_eui}/event/#"
 TIMEOUT = getattr(config, "timeout", 15)  # secondi di attesa uplink
